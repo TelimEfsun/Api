@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <label for="">Şəhər</label>
+                <select class="form-control mb-5" id="cityBox">
+                    <option value="Baku">Bakı</option>
+                    <option value="Sumgait">Sumqayıt</option>
+                    <option value="Ganja">Gəncə</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="">İl</label>
+                <select class="form-control mb-5" id="yearBox">
+                    <option>2025</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="">Ay</label>
+                <select class="form-control mb-5" id="monthBox">
+                    <option value="1">Yanvar</option>
+                    <option value="2">Fevral</option>
+                    <option value="3">Mart</option>
+                    <option value="4">Aprel</option>
+                    <option value="5">May</option>
+                    <option value="6">İyun</option>
+                    <option value="7">İyul</option>
+                    <option value="8">Avqust</option>
+                    <option value="9">Sentyabr</option>
+                    <option value="10">Oktyabr</option>
+                    <option value="11">Noyabr</option>
+                    <option value="12">Dekabr</option>
+
+                </select>
+            </div>
+        </div>
+
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Ayın günləri</th>
+                    <th>Hicri ayın günləri</th>
+                    <th>Həftənin günləri</th>
+                    <th>İmsak vaxtı</th>
+                    <th>Sübh əzanı</th>
+                    <th>Gün çıxır</th>
+                    <th>Zöhr əzanı</th>
+                    <th>Əsr əzanı</th>
+                    <th>Gün batır</th>
+                    <th>Məğrib əzanı</th>
+                    <th>İşa əzanı</th>
+                    <th>Gecə yarısı</th>
+                </tr>
+            </thead>
+            <tbody id="namazList"></tbody>
+        </table>
+
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
